@@ -1,0 +1,17 @@
+name: email-triage-env
+version: 1.0
+
+observation:
+  type: text
+
+action:
+  type: string
+  choices: ["urgent", "normal", "spam"]
+
+reward:
+  type: float
+
+tasks:
+  - easy
+  - medium
+  - hard
