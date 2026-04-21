@@ -1,4 +1,4 @@
-#tuple.
+#tuple is immutable.
 #way to create tuple.
 #1. using parentheses.
 # my_tuple = (1, 2, 3, 4, 5)
@@ -57,8 +57,31 @@
 # print("Original tuple:", my_tuple)
 # print("Sorted tuple:", sorted_tuple)
 
-tpl=(1, 2, 3, 4, 5,6,7,8,9,10)
-tpl=list(tpl)
-tpl[4]=40
-tpl=tuple(tpl)
-print(tpl)
+# tpl=(1, 2, 3, 4, 5,6,7,8,9,10)
+# tpl=list(tpl)
+# tpl[4]=40
+# tpl=tuple(tpl)
+# print(tpl)
+
+
+#String. inmuteable only in c string is mutable.
+#way to create string.
+#1. using single quotes.
+# my_string = 'Hello, World!'
+# print(my_string)
+
+#2. using double quotes.
+# my_string = "Hello, World!"
+# print(my_string)
+
+#3. using triple quotes.
+# my_string = """Hello, World!"""
+# print(my_string)
+
+x = "Hello Everyone Let's learn"
+
+print("1:", x[-10:-1:1])
+print("2:", x[::-10])
+print("3:", x[-10::-5])
+print("4:", x[-1:-11:-5])
+print("5:", x[::-1])
