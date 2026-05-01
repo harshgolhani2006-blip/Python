@@ -67,4 +67,3 @@
 dt={1:5,2:10,3:15,"hello":"world","python":"programming","abc":123}
 dt[1]=50  # Modifying the value associated with the key 1
 print(dt)
-
